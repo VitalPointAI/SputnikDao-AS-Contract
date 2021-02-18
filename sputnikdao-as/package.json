@@ -1,0 +1,21 @@
+{
+  "name": "sputnikdao-as",
+  "version": "0.0.1",
+  "authors": [
+    "Illia Polosukhin <illia.polosukhin@gmail.com>",
+    "Translated to AssemblyScript by Aaron Luhning <a.luhning@vitalpoint.ai>"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo"
+  },
+  "dependencies": {
+    "near-sdk-as": "2.2.4"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
