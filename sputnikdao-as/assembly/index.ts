@@ -4,7 +4,7 @@ import { Vote, NumOrRatio, SputnikDao, Proposal, ProposalInput, PolicyItem, Prop
 
 const MAX_DESCRIPTION_LENGTH: u32 = 280
 
-let dao: SputnikDao
+let dao: SputnikDa
 
 export function init(
   purpose: string,
